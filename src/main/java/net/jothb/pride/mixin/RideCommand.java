@@ -3,8 +3,6 @@ package net.jothb.pride.mixin;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
-import net.fabricmc.fabric.api.event.player.UseEntityCallback;
-import net.minecraft.client.report.ReporterEnvironment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.network.packet.s2c.play.EntityPassengersSetS2CPacket;

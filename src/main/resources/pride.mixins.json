@@ -4,8 +4,7 @@
   "package": "net.jothb.pride.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "RideCommand",
-    "ExampleMixin"
+    "RideCommand"
   ],
   "injectors": {
     "defaultRequire": 1
