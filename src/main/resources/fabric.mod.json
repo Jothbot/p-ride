@@ -3,8 +3,8 @@
   "id": "p-ride",
   "version": "${version}",
   "name": "p-ride",
-  "description": "",
-  "authors": [],
+  "description": "A serverside mod allowing players as a vehicle for the /ride command",
+  "authors": ["JothB"],
   "contact": {
     "repo": "https://github.com/Joth/p-ride"
   },
