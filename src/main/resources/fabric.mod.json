@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "p-ride",
+  "version": "${version}",
+  "name": "p-ride",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Joth/p-ride"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/p-ride/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.jothb.pride.client.P_rideClient"
+    ],
+    "main": [
+      "net.jothb.pride.P_ride"
+    ]
+  },
+  "mixins": [
+    "pride.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
