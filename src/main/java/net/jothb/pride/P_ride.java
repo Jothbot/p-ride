@@ -1,7 +1,6 @@
 package net.jothb.pride;
 
 import net.fabricmc.api.ModInitializer;
-import net.jothb.pride.networking.ModMessages;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,8 +15,6 @@ public class P_ride implements ModInitializer {
      */
     @Override
     public void onInitialize() {
-
-        ModMessages.registerS2CPackets();
 
         LOGGER.info("Hi");
 
