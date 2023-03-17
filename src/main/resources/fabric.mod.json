@@ -12,9 +12,6 @@
   "icon": "assets/p-ride/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "net.jothb.pride.client.P_rideClient"
-    ],
     "main": [
       "net.jothb.pride.P_ride"
     ]

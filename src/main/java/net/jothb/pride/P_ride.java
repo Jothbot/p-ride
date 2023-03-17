@@ -5,18 +5,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class P_ride implements ModInitializer {
-
-    public static final String MOD_ID = "p-ride";
-
-    public static final Logger LOGGER = LoggerFactory.getLogger("modid");
-
-    /**
-     * Runs the mod initializer.
-     */
+    public static final Logger LOGGER = LoggerFactory.getLogger("p-ride");
     @Override
     public void onInitialize() {
 
-        LOGGER.info("Hi");
+        LOGGER.info("Ride your players with P-Ride!");
 
     }
 }
